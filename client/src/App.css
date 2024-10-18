@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* chat-app-socket.io-nodejs/client/src/App.css */
+
+/* Đặt kiểu cho khung chat */
+#messages {
+  border: 1px solid #ccc; /* Đường viền xung quanh khung chat */
+  border-radius: 5px; /* Bo góc cho khung chat */
+  padding: 10px; /* Khoảng cách bên trong khung chat */
+  height: 300px; /* Chiều cao cố định cho khung chat */
+  overflow-y: auto; /* Thêm thanh cuộn nếu nội dung vượt quá chiều cao */
+  margin-bottom: 10px; /* Khoảng cách dưới khung chat */
+  background-color: #f9f9f9; /* Màu nền cho khung chat */
+}
+
+/* Đặt kiểu cho các tin nhắn */
+#messages p {
+  text-align: left; /* Căn chỉnh văn bản về phía bên trái */
+  margin: 5px 0; /* Khoảng cách giữa các tin nhắn */
+}
+
+/* Đặt kiểu cho nút gửi */
+#send-chat {
+  background-color: #4CAF50; /* Màu nền cho nút gửi */
+  color: white; /* Màu chữ cho nút gửi */
+  border: none; /* Không có đường viền */
+  padding: 10px 15px; /* Khoảng cách bên trong nút gửi */
+  border-radius: 5px; /* Bo góc cho nút gửi */
+  cursor: pointer; /* Con trỏ chuột khi di chuột qua nút gửi */
+}
+
+/* Đặt kiểu cho nút gửi khi di chuột qua */
+#send-chat:hover {
+  background-color: #45a049; /* Màu nền khi di chuột qua nút gửi */
+}
